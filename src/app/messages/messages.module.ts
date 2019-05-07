@@ -13,6 +13,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatIconModule } from '@angular/material/icon';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [MessageListComponent, MessageNewComponent],
@@ -26,9 +27,10 @@ import { MatIconModule } from '@angular/material/icon';
     MatAutocompleteModule,
     MatButtonModule,
     MatFormFieldModule,
+    MatIconModule,
     MatInputModule,
     MatStepperModule,
-    MatIconModule
+    MatTooltipModule,
   ]
 })
 export class MessagesModule { }
