@@ -6,6 +6,7 @@ import { CustomersRoutingModule } from './customers-routing.module';
 import { CustomerListComponent } from './customer-list/customer-list.component';
 import { CustomerCardComponent } from './customer-card/customer-card.component';
 import { CustomerNewComponent } from './customer-new/customer-new.component';
+import { RepDialogComponent } from './rep-dialog/rep-dialog.component';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -13,7 +14,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatRadioModule } from '@angular/material/radio';
-import { RepDialogComponent } from './rep-dialog/rep-dialog.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [CustomerListComponent, CustomerCardComponent, CustomerNewComponent, RepDialogComponent],
@@ -29,6 +30,7 @@ import { RepDialogComponent } from './rep-dialog/rep-dialog.component';
     MatIconModule,
     MatInputModule,
     MatRadioModule,
+    MatSnackBarModule,
   ],
   entryComponents: [RepDialogComponent]
 })
